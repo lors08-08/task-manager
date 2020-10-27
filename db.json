@@ -1,0 +1,105 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Все"
+    },
+    {
+      "id": 2,
+      "title": "Работа"
+    },
+    {
+      "id": 3,
+      "title": "Личное"
+    },
+    {
+      "id": 4,
+      "title": "Учеба"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "category_id": 2,
+      "content": "У этой задачи кликнули на цвет слева, чтобы поменять его",
+      "deleted": false,
+      "important": false,
+      "done": false,
+      "color": "#DED3FF",
+      "time": "позавчера в 10:00"
+    },
+    {
+      "id": 2,
+      "category_id": 2,
+      "content": "А это очень длинная задача, тексто которой не умещается на одну строку, поэтому нужно учесть, что \nв тексте задаче может быть две строки, но не больше",
+      "deleted": false,
+      "important": false,
+      "done": false,
+      "color": "#DED3FF",
+      "time": "позавчера в 10:00"
+    },
+    {
+      "id": 3,
+      "category_id": 2,
+      "content": "У этой задачи задан нестандартный цвет",
+      "deleted": false,
+      "important": false,
+      "done": false,
+      "color": "#ded3ff",
+      "time": "позавчера в 10:00"
+    },
+    {
+      "id": 4,
+      "category_id": 3,
+      "content": "У этой задачи задан нестандартный цвет + задача отмечана как важная",
+      "deleted": false,
+      "important": false,
+      "done": false,
+      "color": "#00BA88",
+      "time": "позавчера в 10:00"
+    },
+    {
+      "id": 5,
+      "category_id": 4,
+      "content": "На эту задачу навели курсор мышки",
+      "deleted": false,
+      "important": false,
+      "done": false,
+      "color": "#ded3ff",
+      "time": "позавчера в 10:00"
+    },
+    {
+      "content": "asdas",
+      "time": "Today at 9:55 PM",
+      "category_id": "deleted",
+      "done": false,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": true,
+      "id": 6
+    },
+    {
+      "content": "asdsad",
+      "time": "Today at 10:03 PM",
+      "category_id": "done",
+      "done": true,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 7
+    },
+    {
+      "content": "fdsfsfd",
+      "time": "Today at 10:09 PM",
+      "category_id": "deleted",
+      "done": false,
+      "important": false,
+      "color": "#ED2E7E",
+      "deleted": true,
+      "id": 8
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

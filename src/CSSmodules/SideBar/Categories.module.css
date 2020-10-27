@@ -1,0 +1,30 @@
+.box {
+  width: inherit;
+  padding: 20px;
+  color: #4e4b66;
+  font-weight: 660;
+  display: flex;
+  font-size: 16px;
+}
+.categories {
+  margin-top: 10px;
+  color: #6e7191;
+  overflow-y: scroll;
+  max-height: 300px;
+  overflow-x: hidden;
+}
+.boxOpened {
+  width: inherit;
+  padding: 20px;
+  color: #4e4b66;
+  font-weight: 660;
+  display: flex;
+  font-size: 16px;
+  background-color: #5f2eea30;
+}
+.box:hover {
+  background-color: #5f2eea30;
+}
+.categoryName {
+  margin-left: 10px;
+}

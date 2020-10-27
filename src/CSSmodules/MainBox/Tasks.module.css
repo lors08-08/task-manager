@@ -1,0 +1,206 @@
+.tasksEmpty {
+  display: flex;
+  padding: 20px;
+  line-height: 25px;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+.img {
+  width: 300px;
+  position: absolute;
+}
+.box {
+  padding: 20px;
+  max-height: 100vh;
+  min-height: 300px;
+}
+.input {
+  border: 0;
+  outline: none;
+  margin-left: 15px;
+  width: 100%;
+  z-index: 10;
+  position: relative;
+  background-color: #eff0f7;
+}
+.inputHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  border-radius: 16px;
+  background-color: #eff0f7;
+}
+.inputHeader:hover ~ .underInput {
+  opacity: 1;
+}
+.inputBlock {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  cursor: pointer;
+}
+.star:hover {
+  filter: drop-shadow(16px 16px 20px #050000) invert(75%);
+}
+.plus:hover {
+  filter: drop-shadow(16px 16px 20px #050000) invert(100%);
+}
+.underInput {
+  color: #6e7191;
+  font-size: 13px;
+  margin-left: 20px;
+  opacity: 0;
+}
+.body {
+  margin-top: 40px;
+}
+.miniBody {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 70vh;
+}
+.overlay {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+.taskBlock {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 16px;
+  background-color: #f7f7fc;
+  margin-bottom: 5px;
+}
+.taskBlockInactive {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 16px;
+  background-color: #f7f7fc;
+  margin-bottom: 5px;
+  pointer-events: none;
+  filter: drop-shadow(0px 0px 0px #000000) grayscale(100%);
+}
+.taskBody {
+  display: flex;
+}
+.taskColors {
+  height: 70px;
+  background-color: #ded3ff;
+  width: 10px;
+  transition: 1s;
+}
+.selectedColor {
+  width: 10px;
+  height: 70px;
+}
+.taskColorsOpened {
+  height: 70px;
+  width: 120px;
+  transition: 1s;
+  display: flex;
+}
+.colorPink {
+  width: 20px;
+  height: 70px;
+  background: #ded3ff;
+}
+.colorGreen {
+  height: 70px;
+  width: 20px;
+  background: #00ba88;
+}
+.colorRed {
+  height: 70px;
+  width: 20px;
+  background: #ed2e7e;
+}
+.colorOrange {
+  height: 70px;
+  width: 20px;
+  background: #f4b740;
+}
+.colorPurple {
+  height: 70px;
+  width: 20px;
+  background: #5f2eea;
+}
+.colorLightBlue {
+  height: 70px;
+  width: 20px;
+  background: #1cc8ee;
+}
+.taskContent {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  word-break: break-word;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 8px 10px 8px 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical; /* решение нашел на https://stackoverflow.com/questions/3922739/limit-text-length-to-n-lines-using-css*/
+}
+
+.taskTail {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.taskBlock:hover .taskTail {
+  display: block;
+  padding-right: 10px;
+  padding-top: 5px;
+  line-height: 5px;
+}
+.taskBlock:hover .iconsTask {
+  display: block;
+}
+.taskBlock:hover .starImportant {
+  display: none;
+}
+.taskBlock:hover .time {
+  padding-top: 10px;
+}
+.time {
+  text-align: right;
+  color: #ed2e7e;
+}
+.starImportant {
+  display: block;
+}
+.iconsTask {
+  text-align: right;
+  padding-top: 15px;
+  display: none;
+}
+.checkTail {
+  margin-right: 15px;
+}
+.starTail:hover {
+  filter: drop-shadow(0px 0px 0px #ff0000) grayscale(100%);
+}
+.checkTail:hover {
+  filter: drop-shadow(0px 0px 0px #ff0000) sepia(100%);
+  cursor: pointer;
+}
+.starTail {
+  margin-right: 15px;
+  cursor: pointer;
+}
+.deleteTail:hover {
+  filter: drop-shadow(0px 0px 0px #ff0000) sepia(100%);
+  cursor: pointer;
+}

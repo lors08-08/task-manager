@@ -1,0 +1,112 @@
+::-webkit-scrollbar {
+  display: none;
+}
+.sideBar {
+  max-width: 300px;
+  min-width: 300px;
+  background-color: #ded3ff;
+}
+.title {
+  font-size: 24px;
+  text-align: center;
+  color: #5f2eea;
+  margin-top: 20px;
+}
+.underTitle {
+  margin-top: 35px;
+  padding-left: 20px;
+  color: #6e7191;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.catalog {
+  line-height: 27px;
+  height: inherit;
+}
+.bottom {
+  padding-left: 22px;
+  line-height: 40px;
+  color: #4e4b66;
+  font-size: 16px;
+  font-weight: 600;
+}
+@media all and (min-height: 700px) {
+  .bottom {
+    position: absolute;
+    bottom: 0;
+    padding-left: 22px;
+    line-height: 40px;
+    color: #4e4b66;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+.checkIcon {
+  margin-right: 8px;
+}
+.checkIconBottom {
+  margin-right: 10px;
+}
+.done {
+  margin-bottom: 20px;
+  margin-left: 2px;
+  cursor: pointer;
+}
+.doneSelected {
+  margin-bottom: 20px;
+  margin-left: 2px;
+  cursor: pointer;
+  filter: drop-shadow(0px 0px 0px #000000) brightness(100%);
+}
+.trash {
+  margin-bottom: 10px;
+  cursor: pointer;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.trashSelected {
+  margin-bottom: 10px;
+  cursor: pointer;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  filter: drop-shadow(0px 0px 0px #000000) brightness(100%);
+}
+.done:hover {
+  filter: drop-shadow(0px 0px 0px #000000) brightness(100%);
+}
+.trash:hover {
+  filter: drop-shadow(0px 0px 0px #000000) brightness(100%);
+}
+.addCategory {
+  width: inherit;
+  padding: 20px;
+  color: #4e4b66;
+  font-weight: 660;
+  display: flex;
+  font-size: 16px;
+  position: relative;
+  margin-top: 5px;
+}
+.addCategoryInput {
+  background-color: #fcfcfc00;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.addCategory:hover .addCategoryInput {
+  background-color: #fcfcfc00;
+}
+.addCategory:hover {
+  background-color: #fcfcfc70;
+}
+.plus:hover {
+  filter: drop-shadow(0px 0px 0px #000000) invert(0%);
+  cursor: pointer;
+}
+.addCategoryName {
+  margin-left: 10px;
+  font-weight: 400;
+}

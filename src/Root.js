@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import SkeletonBox from "./Components/SkeletonLoading/SkeletonBox";
+import SkeletonBox from "./components/SkeletonLoading/SkeletonBox";
 import App from "./App";
 import { loadCategories } from "./redux/actions";
 

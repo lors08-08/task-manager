@@ -20,7 +20,7 @@
   "tasks": [
     {
       "id": 1,
-      "category_id": 2,
+      "categoryId": 2,
       "content": "У этой задачи кликнули на цвет слева, чтобы поменять его",
       "deleted": false,
       "important": false,
@@ -30,27 +30,28 @@
     },
     {
       "id": 2,
-      "category_id": 2,
+      "categoryId": 2,
       "content": "А это очень длинная задача, тексто которой не умещается на одну строку, поэтому нужно учесть, что \nв тексте задаче может быть две строки, но не больше",
       "deleted": false,
-      "important": false,
+      "important": true,
       "done": false,
       "color": "#DED3FF",
       "time": "позавчера в 10:00"
     },
     {
       "id": 3,
-      "category_id": 2,
+      "categoryId": 2,
       "content": "У этой задачи задан нестандартный цвет",
-      "deleted": false,
+      "deleted": true,
       "important": false,
       "done": false,
       "color": "#ded3ff",
-      "time": "позавчера в 10:00"
+      "time": "позавчера в 10:00",
+      "category_id": "deleted"
     },
     {
       "id": 4,
-      "category_id": 3,
+      "categoryId": 3,
       "content": "У этой задачи задан нестандартный цвет + задача отмечана как важная",
       "deleted": false,
       "important": false,
@@ -60,7 +61,7 @@
     },
     {
       "id": 5,
-      "category_id": 4,
+      "categoryId": 4,
       "content": "На эту задачу навели курсор мышки",
       "deleted": false,
       "important": false,
@@ -70,33 +71,175 @@
     },
     {
       "content": "asdas",
-      "time": "Today at 9:55 PM",
+      "time": "Today at 1:59 AM",
       "category_id": "deleted",
       "done": false,
       "important": false,
       "color": "#ded3ff",
       "deleted": true,
-      "id": 6
+      "id": 9
     },
     {
-      "content": "asdsad",
-      "time": "Today at 10:03 PM",
-      "category_id": "done",
+      "content": "asd",
+      "time": "Today at 3:35 AM",
+      "category_id": 2,
       "done": true,
       "important": false,
       "color": "#ded3ff",
       "deleted": false,
-      "id": 7
+      "id": 10,
+      "categoryId": "done"
     },
     {
-      "content": "fdsfsfd",
-      "time": "Today at 10:09 PM",
-      "category_id": "deleted",
+      "content": "asd",
+      "time": "Today at 3:36 AM",
+      "category_id": 2,
       "done": false,
       "important": false,
-      "color": "#ED2E7E",
+      "color": "#ded3ff",
       "deleted": true,
-      "id": 8
+      "id": 11,
+      "categoryId": "deleted"
+    },
+    {
+      "content": "asd",
+      "time": "Today at 3:37 AM",
+      "categoryId": "deleted",
+      "done": false,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": true,
+      "id": 12
+    },
+    {
+      "content": "sdfsd",
+      "time": "Today at 3:47 AM",
+      "categoryId": "done",
+      "done": true,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 13
+    },
+    {
+      "content": "adsa",
+      "time": "Today at 3:48 AM",
+      "categoryId": "done",
+      "done": true,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 14
+    },
+    {
+      "content": "asddsa",
+      "time": "Today at 3:48 AM",
+      "categoryId": "done",
+      "done": true,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 15
+    },
+    {
+      "content": "asdsa",
+      "time": "Today at 3:51 AM",
+      "categoryId": "done",
+      "done": true,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 16
+    },
+    {
+      "content": "asdas",
+      "time": "Today at 3:51 AM",
+      "categoryId": "deleted",
+      "done": false,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": true,
+      "id": 17
+    },
+    {
+      "content": "asd",
+      "time": "Today at 3:58 AM",
+      "categoryId": "done",
+      "done": true,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 18
+    },
+    {
+      "content": "asd",
+      "time": "Today at 4:00 AM",
+      "categoryId": "done",
+      "done": true,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 19
+    },
+    {
+      "content": "asd",
+      "time": "Today at 4:04 AM",
+      "categoryId": "deleted",
+      "done": false,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": true,
+      "id": 20
+    },
+    {
+      "content": "sdfd",
+      "time": "Today at 4:11 AM",
+      "categoryId": 1,
+      "done": false,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 21
+    },
+    {
+      "content": "hgjhg",
+      "time": "Today at 4:14 AM",
+      "categoryId": 1,
+      "done": false,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 22
+    },
+    {
+      "content": "gjgh",
+      "time": "Today at 4:14 AM",
+      "categoryId": 1,
+      "done": false,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 23
+    },
+    {
+      "content": "saf",
+      "time": "Today at 4:15 AM",
+      "categoryId": 1,
+      "done": false,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 24
+    },
+    {
+      "content": "asf",
+      "time": "Today at 4:15 AM",
+      "categoryId": 1,
+      "done": false,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 25
     }
   ],
   "profile": {

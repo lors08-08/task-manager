@@ -105,7 +105,7 @@ export function saveTask(content, idCategory, time) {
       body: JSON.stringify({
         content: `${content}`,
         time: `${time}`,
-        category_id: parseInt(`${idCategory}`),
+        categoryId: parseInt(`${idCategory}`),
         done: false,
         important: false,
         color: "#ded3ff",
@@ -134,7 +134,7 @@ export function saveTaskWithStar(content, idCategory, time) {
       body: JSON.stringify({
         content: `${content}`,
         time: `${time}`,
-        category_id: parseInt(`${idCategory}`),
+        categoryId: parseInt(`${idCategory}`),
         done: false,
         important: true,
         color: "#ded3ff",
@@ -160,7 +160,7 @@ export function addToTrash(id) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        category_id: "deleted",
+        categoryId: "deleted",
         done: false,
         deleted: true,
       }),
@@ -206,7 +206,7 @@ export function addToDone(id) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        category_id: "done",
+        categoryId: "done",
         done: true,
       }),
     })

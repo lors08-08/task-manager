@@ -1,7 +1,7 @@
 import React from "react";
-import SideBar from "./Components/SideBar/SideBar";
-import MainBox from "./Components/MainBox/MainBox";
-import styles from "./CSSmodules/MainBox/MainBox.module.css";
+import SideBar from "./components/SideBar/SideBar";
+import MainBox from "./components/MainBox/MainBox";
+import styles from "./components/MainBox/MainBox.module.css";
 import { Route } from "react-router-dom";
 
 function App() {

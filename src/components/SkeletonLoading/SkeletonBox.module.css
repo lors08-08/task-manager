@@ -1,0 +1,64 @@
+.box {
+  display: flex;
+}
+.mainBox {
+  width: 100%;
+  min-width: 300px;
+  height: 100vh;
+}
+.header {
+  padding: 15px 20px 15px 20px;
+  display: flex;
+  align-items: center;
+  background-color: #a0a0a040;
+  justify-content: space-between;
+}
+.search {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  border: 2px solid black;
+  padding: 6px 15px 6px 15px;
+  height: 15px;
+  width: 35%;
+  background-color: #fcfcfc;
+}
+.searchIcon {
+  color: #a0a3bd;
+  align-self: center;
+  display: flex;
+}
+.settingsIcon {
+  height: 28px;
+  display: flex;
+  margin-right: 30px;
+}
+.bellIcon {
+  display: flex;
+  margin-right: 30px;
+}
+.headerIcons {
+  display: flex;
+  align-items: center;
+  height: inherit;
+  justify-content: space-between;
+}
+.searchBar {
+  border: none;
+  outline: none;
+  border-radius: 16px;
+  font-size: 16px;
+  width: 100%;
+}
+.tasks {
+  display: flex;
+  padding: 20px;
+  line-height: 25px;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+.img {
+  width: 300px;
+  position: absolute;
+}

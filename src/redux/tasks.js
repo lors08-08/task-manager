@@ -30,20 +30,8 @@ function reducer(state = initialState, action) {
         ...state,
         items: action.payload,
         loading: false,
+        closed: false,
       };
-    // case "tasks/preLoad/start":
-    //   return {
-    //     ...state,
-    //     loading: true,
-    //     loadingDoneTasks: null,
-    //     loadingDeletedTasks: null,
-    //   };
-    // case "tasks/preLoad/succeed":
-    //   return {
-    //     ...state,
-    //     items: action.payload,
-    //     loading: false,
-    //   };
     case "tasks/setTaskValue":
       return {
         ...state,
@@ -98,7 +86,7 @@ function reducer(state = initialState, action) {
       return {
         ...state,
         items: state.items.filter((item) => item.id !== action.payload),
-        addingToTrash: false,
+        addingToDone: false,
       };
     case "tasks/addToImportant/start":
       return {

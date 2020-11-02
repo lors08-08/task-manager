@@ -18,7 +18,7 @@ function MainBoxIcons() {
           className={styles.settingsIcon}
         />
       </div>
-      <div className={styles.profileIcon}></div>
+      <div className={styles.profileIcon} />
     </div>
   );
 }

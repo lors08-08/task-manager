@@ -166,7 +166,7 @@ export function addToTrash(id) {
       }),
     })
       .then((response) => response.json())
-      .then((json) => {
+      .then(() => {
         dispatch({
           type: "tasks/addToTrash/succeed",
           payload: id,
@@ -188,7 +188,7 @@ export function addToImportant(id) {
       }),
     })
       .then((response) => response.json())
-      .then((json) => {
+      .then(() => {
         dispatch({
           type: "tasks/addToImportant/succeed",
           payload: id,
@@ -211,7 +211,7 @@ export function addToDone(id) {
       }),
     })
       .then((response) => response.json())
-      .then((json) => {
+      .then(() => {
         dispatch({
           type: "tasks/addToDone/succeed",
           payload: id,
@@ -293,7 +293,7 @@ export function selectColor(id, color) {
       }),
     })
       .then((response) => response.json())
-      .then((json) => {
+      .then(() => {
         dispatch({
           type: "tasks/selectColor/succeed",
           payload: { id, color },

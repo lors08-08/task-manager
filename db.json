@@ -2,77 +2,142 @@
   "categories": [
     {
       "id": 1,
-      "title": "Все"
-    },
-    {
-      "id": 2,
       "title": "Работа"
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "Личное"
     },
     {
-      "id": 4,
+      "id": 3,
       "title": "Учеба"
+    },
+    {
+      "title": "other",
+      "id": 4
+    },
+    {
+      "title": "jhk",
+      "id": 5
+    },
+    {
+      "title": "asd",
+      "id": 6
+    },
+    {
+      "title": "",
+      "id": 7
+    },
+    {
+      "title": "",
+      "id": 8
+    },
+    {
+      "title": "",
+      "id": 9
+    },
+    {
+      "title": "",
+      "id": 10
+    },
+    {
+      "title": "",
+      "id": 11
+    },
+    {
+      "title": "",
+      "id": 12
+    },
+    {
+      "title": "",
+      "id": 13
+    },
+    {
+      "title": "",
+      "id": 14
+    },
+    {
+      "title": "",
+      "id": 15
+    },
+    {
+      "title": "",
+      "id": 16
+    },
+    {
+      "title": "",
+      "id": 17
+    },
+    {
+      "title": "",
+      "id": 18
     }
   ],
   "tasks": [
     {
       "id": 1,
-      "categoryId": 2,
+      "categoryId": "deleted",
       "content": "У этой задачи кликнули на цвет слева, чтобы поменять его",
-      "deleted": false,
-      "important": false,
-      "done": false,
-      "color": "#DED3FF",
-      "time": "позавчера в 10:00"
-    },
-    {
-      "id": 2,
-      "categoryId": 2,
-      "content": "А это очень длинная задача, тексто которой не умещается на одну строку, поэтому нужно учесть, что \nв тексте задаче может быть две строки, но не больше",
-      "deleted": false,
-      "important": true,
-      "done": false,
-      "color": "#DED3FF",
-      "time": "позавчера в 10:00"
-    },
-    {
-      "id": 3,
-      "categoryId": 2,
-      "content": "У этой задачи задан нестандартный цвет",
       "deleted": true,
-      "important": false,
-      "done": false,
-      "color": "#ded3ff",
-      "time": "позавчера в 10:00",
-      "category_id": "deleted"
-    },
-    {
-      "id": 4,
-      "categoryId": 3,
-      "content": "У этой задачи задан нестандартный цвет + задача отмечана как важная",
-      "deleted": false,
       "important": false,
       "done": false,
       "color": "#00BA88",
       "time": "позавчера в 10:00"
     },
     {
+      "id": 2,
+      "categoryId": "deleted",
+      "content": "А это очень длинная задача, тексто которой не умещается на одну строку, поэтому нужно учесть, что \nв тексте задаче может быть две строки, но не больше",
+      "deleted": true,
+      "important": true,
+      "done": false,
+      "color": "#DED3FF",
+      "time": "позавчера в 10:00"
+    },
+    {
       "id": 5,
-      "categoryId": 4,
+      "categoryId": "deleted",
       "content": "На эту задачу навели курсор мышки",
-      "deleted": false,
+      "deleted": true,
       "important": false,
       "done": false,
-      "color": "#ded3ff",
+      "color": "#DED3FF",
       "time": "позавчера в 10:00"
     },
     {
       "content": "asdas",
-      "time": "Today at 1:59 AM",
-      "category_id": "deleted",
+      "time": "Today at 1:47 AM",
+      "categoryId": "deleted",
+      "done": false,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": true,
+      "id": 6
+    },
+    {
+      "content": "asda",
+      "time": "Today at 1:47 AM",
+      "categoryId": "deleted",
+      "done": false,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": true,
+      "id": 7
+    },
+    {
+      "content": "asdasd",
+      "time": "Today at 1:47 AM",
+      "categoryId": "deleted",
+      "done": false,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": true,
+      "id": 8
+    },
+    {
+      "content": "asdasd",
+      "time": "Today at 1:47 AM",
+      "categoryId": "deleted",
       "done": false,
       "important": false,
       "color": "#ded3ff",
@@ -81,29 +146,27 @@
     },
     {
       "content": "asd",
-      "time": "Today at 3:35 AM",
-      "category_id": 2,
-      "done": true,
-      "important": false,
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 10,
-      "categoryId": "done"
-    },
-    {
-      "content": "asd",
-      "time": "Today at 3:36 AM",
-      "category_id": 2,
+      "time": "Today at 1:47 AM",
+      "categoryId": "deleted",
       "done": false,
       "important": false,
       "color": "#ded3ff",
       "deleted": true,
-      "id": 11,
-      "categoryId": "deleted"
+      "id": 10
     },
     {
-      "content": "asd",
-      "time": "Today at 3:37 AM",
+      "content": "asdasd",
+      "time": "Today at 1:47 AM",
+      "categoryId": "deleted",
+      "done": false,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": true,
+      "id": 11
+    },
+    {
+      "content": "asdasdasdas",
+      "time": "Today at 2:01 AM",
       "categoryId": "deleted",
       "done": false,
       "important": false,
@@ -112,48 +175,48 @@
       "id": 12
     },
     {
-      "content": "sdfsd",
-      "time": "Today at 3:47 AM",
-      "categoryId": "done",
-      "done": true,
+      "content": "asdas",
+      "time": "Today at 2:02 AM",
+      "categoryId": "deleted",
+      "done": false,
       "important": false,
       "color": "#ded3ff",
-      "deleted": false,
+      "deleted": true,
       "id": 13
     },
     {
-      "content": "adsa",
-      "time": "Today at 3:48 AM",
-      "categoryId": "done",
-      "done": true,
+      "content": "asd",
+      "time": "Today at 2:02 AM",
+      "categoryId": "deleted",
+      "done": false,
       "important": false,
       "color": "#ded3ff",
-      "deleted": false,
+      "deleted": true,
       "id": 14
     },
     {
-      "content": "asddsa",
-      "time": "Today at 3:48 AM",
-      "categoryId": "done",
-      "done": true,
+      "content": "asda",
+      "time": "Today at 2:02 AM",
+      "categoryId": "deleted",
+      "done": false,
       "important": false,
-      "color": "#ded3ff",
-      "deleted": false,
+      "color": "#DED3FF",
+      "deleted": true,
       "id": 15
     },
     {
-      "content": "asdsa",
-      "time": "Today at 3:51 AM",
-      "categoryId": "done",
-      "done": true,
+      "content": "asd",
+      "time": "Today at 2:02 AM",
+      "categoryId": "deleted",
+      "done": false,
       "important": false,
       "color": "#ded3ff",
-      "deleted": false,
+      "deleted": true,
       "id": 16
     },
     {
-      "content": "asdas",
-      "time": "Today at 3:51 AM",
+      "content": "aaaaaaaaaa",
+      "time": "Today at 3:30 PM",
       "categoryId": "deleted",
       "done": false,
       "important": false,
@@ -163,57 +226,57 @@
     },
     {
       "content": "asd",
-      "time": "Today at 3:58 AM",
-      "categoryId": "done",
-      "done": true,
-      "important": false,
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 18
-    },
-    {
-      "content": "asd",
-      "time": "Today at 4:00 AM",
-      "categoryId": "done",
-      "done": true,
-      "important": false,
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 19
-    },
-    {
-      "content": "asd",
-      "time": "Today at 4:04 AM",
+      "time": "Today at 4:43 PM",
       "categoryId": "deleted",
       "done": false,
       "important": false,
       "color": "#ded3ff",
       "deleted": true,
-      "id": 20
+      "id": 18
     },
     {
-      "content": "sdfd",
-      "time": "Today at 4:11 AM",
+      "content": "das",
+      "time": "Today at 4:52 PM",
+      "categoryId": "deleted",
+      "done": false,
+      "important": false,
+      "color": "#ED2E7E",
+      "deleted": true,
+      "id": 19
+    },
+    {
+      "content": "asdsa",
+      "time": "Today at 4:52 PM",
       "categoryId": 1,
       "done": false,
       "important": false,
-      "color": "#ded3ff",
+      "color": "#5F2EEA",
+      "deleted": false,
+      "id": 20
+    },
+    {
+      "content": "aa",
+      "time": "Today at 4:52 PM",
+      "categoryId": "done",
+      "done": true,
+      "important": true,
+      "color": "#DED3FF",
       "deleted": false,
       "id": 21
     },
     {
-      "content": "hgjhg",
-      "time": "Today at 4:14 AM",
-      "categoryId": 1,
+      "content": "asdas",
+      "time": "Today at 1:05 AM",
+      "categoryId": "deleted",
       "done": false,
       "important": false,
-      "color": "#ded3ff",
-      "deleted": false,
+      "color": "#F4B740",
+      "deleted": true,
       "id": 22
     },
     {
-      "content": "gjgh",
-      "time": "Today at 4:14 AM",
+      "content": "asd",
+      "time": "Today at 3:27 PM",
       "categoryId": 1,
       "done": false,
       "important": false,
@@ -222,9 +285,9 @@
       "id": 23
     },
     {
-      "content": "saf",
-      "time": "Today at 4:15 AM",
-      "categoryId": 1,
+      "content": "aaaaaaaa",
+      "time": "Today at 3:28 PM",
+      "categoryId": 2,
       "done": false,
       "important": false,
       "color": "#ded3ff",
@@ -232,14 +295,334 @@
       "id": 24
     },
     {
-      "content": "asf",
-      "time": "Today at 4:15 AM",
-      "categoryId": 1,
+      "content": "aa",
+      "time": "Today at 3:39 PM",
+      "categoryId": null,
       "done": false,
       "important": false,
       "color": "#ded3ff",
       "deleted": false,
       "id": 25
+    },
+    {
+      "content": "a",
+      "time": "Today at 3:39 PM",
+      "categoryId": 1,
+      "done": false,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 26
+    },
+    {
+      "content": "a",
+      "time": "Today at 3:39 PM",
+      "categoryId": 3,
+      "done": false,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 27
+    },
+    {
+      "content": "d",
+      "time": "Today at 3:39 PM",
+      "categoryId": 4,
+      "done": false,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 28
+    },
+    {
+      "content": "asd",
+      "time": "Today at 4:11 AM",
+      "categoryId": null,
+      "done": false,
+      "important": true,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 29
+    },
+    {
+      "content": "a",
+      "time": "Today at 4:12 AM",
+      "categoryId": null,
+      "done": false,
+      "important": true,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 30
+    },
+    {
+      "content": "dasd",
+      "time": "Today at 4:25 AM",
+      "categoryId": null,
+      "done": false,
+      "important": "true",
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 31
+    },
+    {
+      "content": "a",
+      "time": "Today at 4:38 AM",
+      "categoryId": null,
+      "done": false,
+      "important": "false",
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 32
+    },
+    {
+      "content": "asd",
+      "time": "Today at 4:38 AM",
+      "categoryId": null,
+      "done": false,
+      "important": "false",
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 33
+    },
+    {
+      "content": "a",
+      "time": "Today at 4:38 AM",
+      "categoryId": null,
+      "done": false,
+      "important": "true",
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 34
+    },
+    {
+      "content": "a",
+      "time": "Today at 4:38 AM",
+      "categoryId": null,
+      "done": false,
+      "important": "false",
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 35
+    },
+    {
+      "content": "no star",
+      "time": "Today at 4:41 AM",
+      "categoryId": null,
+      "done": false,
+      "important": true,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 36
+    },
+    {
+      "content": "asd",
+      "time": "Today at 4:43 AM",
+      "categoryId": null,
+      "done": false,
+      "important": "true",
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 37
+    },
+    {
+      "content": "asdas",
+      "time": "Today at 4:43 AM",
+      "categoryId": null,
+      "done": false,
+      "important": "true",
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 38
+    },
+    {
+      "content": "asd",
+      "time": "Today at 4:44 AM",
+      "categoryId": null,
+      "done": false,
+      "important": "false",
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 39
+    },
+    {
+      "content": "aaa",
+      "time": "Today at 4:45 AM",
+      "categoryId": "done",
+      "done": true,
+      "important": "true",
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 40
+    },
+    {
+      "content": "dad",
+      "time": "Today at 4:45 AM",
+      "categoryId": 1,
+      "done": false,
+      "important": "false",
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 41
+    },
+    {
+      "content": "adsa",
+      "time": "Today at 4:47 AM",
+      "categoryId": 1,
+      "done": false,
+      "important": "true",
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 42
+    },
+    {
+      "content": "asd",
+      "time": "Today at 4:47 AM",
+      "categoryId": 1,
+      "done": false,
+      "important": "false",
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 43
+    },
+    {
+      "content": "asd",
+      "time": "Today at 4:47 AM",
+      "categoryId": 1,
+      "done": false,
+      "important": "false",
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 44
+    },
+    {
+      "content": "aaa",
+      "time": "Today at 4:47 AM",
+      "categoryId": 1,
+      "done": false,
+      "important": "false",
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 45
+    },
+    {
+      "content": "a",
+      "time": "Today at 4:47 AM",
+      "categoryId": 1,
+      "done": false,
+      "important": "false",
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 46
+    },
+    {
+      "content": "a",
+      "time": "Today at 4:47 AM",
+      "categoryId": 2,
+      "done": false,
+      "important": "false",
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 47
+    },
+    {
+      "content": "asd",
+      "time": "Today at 4:48 AM",
+      "categoryId": 2,
+      "done": false,
+      "important": "true",
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 48
+    },
+    {
+      "content": "s",
+      "time": "Today at 4:48 AM",
+      "categoryId": 2,
+      "done": false,
+      "important": "false",
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 49
+    },
+    {
+      "content": "d",
+      "time": "Today at 4:49 AM",
+      "categoryId": 2,
+      "done": false,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 50
+    },
+    {
+      "content": "d",
+      "time": "Today at 4:49 AM",
+      "categoryId": 2,
+      "done": false,
+      "important": true,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 51
+    },
+    {
+      "content": "asd",
+      "time": "Today at 4:49 AM",
+      "categoryId": null,
+      "done": false,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 52
+    },
+    {
+      "content": "das",
+      "time": "Today at 4:49 AM",
+      "categoryId": null,
+      "done": false,
+      "important": true,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 53
+    },
+    {
+      "content": "a",
+      "time": "Today at 4:50 AM",
+      "categoryId": null,
+      "done": false,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 54
+    },
+    {
+      "content": "a",
+      "time": "Today at 3:57 AM",
+      "categoryId": 1,
+      "done": false,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 55
+    },
+    {
+      "content": "a",
+      "time": "Today at 3:57 AM",
+      "categoryId": 1,
+      "done": false,
+      "important": true,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 56
+    },
+    {
+      "content": "a",
+      "time": "Today at 3:57 AM",
+      "categoryId": 1,
+      "done": false,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 57
     }
   ],
   "profile": {

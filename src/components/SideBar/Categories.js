@@ -1,30 +1,38 @@
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import styles from "./Categories.module.css";
-import { openTasks } from "../../redux/actions";
 import { useHistory, useParams } from "react-router-dom";
 import classNames from "classnames";
+import folder from "../../icons/iconsApp/Folder.svg";
 
 function Categories() {
   const categories = useSelector((state) => state.categories.items);
-  const opened = useSelector((state) => state.tasks.closed);
   const idTask = useParams().id;
-  const dispatch = useDispatch();
   const history = useHistory();
 
   const handleOpenTask = (category) => {
     if (parseInt(idTask) !== category.id) {
-      dispatch(openTasks(idTask));
       history.push(category.id.toString());
     }
   };
+  const handleOpenAllTasks = () => {
+    history.push("/");
+  };
+
   return (
     <div className={styles.categories}>
+      <div
+        className={!idTask ? styles.boxOpened : styles.box}
+        onClick={handleOpenAllTasks}
+      >
+        <img src={folder} alt="img" />
+        <div className={styles.categoryName}>Все</div>
+      </div>
       {categories.map((category) => {
         const boxWrapper = classNames(styles.box, {
-          [styles.boxOpened]:
-            opened === false && category.id === parseInt(idTask),
+          [styles.boxOpened]: category.id === parseInt(idTask),
         });
+
         return (
           <div
             className={boxWrapper}
@@ -33,7 +41,7 @@ function Categories() {
               handleOpenTask(category);
             }}
           >
-            <img src={require("../../icons/iconsApp/Folder.svg")} alt="img" />
+            <img src={folder} alt="img" />
             <div className={styles.categoryName}>{category.title}</div>
           </div>
         );

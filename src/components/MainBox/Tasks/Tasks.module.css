@@ -1,19 +1,29 @@
-.tasksEmpty {
+.tasksEmptyBox {
   display: flex;
   padding: 20px 20px 0 20px;
   line-height: 25px;
   align-items: center;
   justify-content: center;
-  height: 85vh;
+  height: 65vh;
+}
+.tasksEmpty {
+  text-align: center;
+}
+.tasksEmptyTitle {
+  font-size: 16px;
+  word-break: break-word;
+  font-weight: 400;
+  color: #4E4B66;
 }
 .img {
   width: 300px;
-  position: absolute;
+  position: relative;
 }
 .box {
-  padding: 20px 20px 0 20px;
-  max-height: 100vh;
+  /*max-height: 100vh;*/
   min-height: 300px;
+  padding: 0 30px 0 30px;
+  margin-top: 20px;
 }
 .input {
   border: 0;
@@ -31,9 +41,9 @@
   border-radius: 16px;
   background-color: #eff0f7;
 }
-.inputHeader:hover ~ .underInput {
-  opacity: 1;
-}
+/*.inputHeader:hover ~ .underInput {*/
+/*  opacity: 1;*/
+/*}*/
 .inputBlock {
   display: flex;
   align-items: center;
@@ -41,7 +51,8 @@
   cursor: pointer;
 }
 .star:hover {
-  filter: drop-shadow(16px 16px 20px #050000) invert(75%);
+  filter: grayscale(100%);
+  cursor: pointer;
 }
 .plus:hover {
   filter: drop-shadow(16px 16px 20px #050000) invert(100%);
@@ -52,13 +63,23 @@
   margin-left: 20px;
   opacity: 0;
 }
+.underInputShow {
+  color: #6e7191;
+  font-size: 13px;
+  margin-left: 20px;
+  opacity: 1;
+}
 .body {
   margin-top: 40px;
-}
-.miniBody {
   overflow-y: scroll;
   overflow-x: hidden;
-  max-height: 60vh;
+  max-height: 70vh;
+}
+.bodyDoneDeleted {
+  margin-top: 40px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 85vh;
 }
 .overlay {
   position: absolute;
@@ -92,16 +113,19 @@
   background-color: #ded3ff;
   width: 10px;
   transition: 1s;
+  cursor: pointer;
 }
 .selectedColor {
   width: 10px;
   height: 70px;
+  cursor: pointer;
 }
 .taskColorsOpened {
   height: 70px;
   width: 120px;
   transition: 1s;
   display: flex;
+  cursor: pointer;
 }
 .colorPink {
   width: 20px;
@@ -136,11 +160,11 @@
 .taskContent {
   flex: 2;
   display: flex;
-  align-items: center;
+  align-self: center;
   word-break: break-word;
   line-height: 28px;
   font-size: 16px;
-  padding: 8px 10px 8px 10px;
+  padding: 0 10px 0 10px;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -156,7 +180,6 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
-  padding-bottom: 10px;
   padding-right: 10px;
 }
 .taskBlock:hover .taskTail {

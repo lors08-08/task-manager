@@ -50,15 +50,33 @@
   font-size: 16px;
   width: 100%;
 }
-.tasks {
+/*.tasks {*/
+/*  display: flex;*/
+/*  padding: 20px;*/
+/*  line-height: 25px;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  height: 85vh;*/
+/*}*/
+.img {
+  width: 300px;
+  position: relative;
+  filter: grayscale(100%);
+}
+.tasksEmptyBox {
   display: flex;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   line-height: 25px;
   align-items: center;
   justify-content: center;
   height: 85vh;
 }
-.img {
-  width: 300px;
-  position: absolute;
+.tasksEmpty {
+  text-align: center;
+}
+.tasksEmptyTitle {
+  font-size: 16px;
+  word-break: break-word;
+  font-weight: 400;
+  color: #4E4B66;
 }

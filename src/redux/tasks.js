@@ -1,6 +1,7 @@
 const initialState = {
   loading: true,
   closed: true,
+  openedTasks: false,
   loadingColor: true,
   selectedColorSwitcher: "",
   loadingDoneTasks: null,
@@ -22,6 +23,7 @@ function reducer(state = initialState, action) {
       return {
         ...state,
         loading: true,
+        openedTasks: false,
         loadingDoneTasks: null,
         loadingDeletedTasks: null,
       };
@@ -30,7 +32,22 @@ function reducer(state = initialState, action) {
         ...state,
         items: action.payload,
         loading: false,
-        closed: false,
+        openedTasks: true,
+      };
+    case "tasksAll/open/start":
+      return {
+        ...state,
+        loading: true,
+        openedTasks: false,
+        loadingDoneTasks: null,
+        loadingDeletedTasks: null,
+      };
+    case "tasksAll/open/succeed":
+      return {
+        ...state,
+        items: action.payload,
+        loading: false,
+        openedTasks: true,
       };
     case "tasks/setTaskValue":
       return {

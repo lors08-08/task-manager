@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../Tasks.module.css";
-import { selectColor } from "../../../../redux/actions";
+import styles from "./Tasks.module.css";
+import { selectColor } from "../../../redux/actions";
 import { useDispatch } from "react-redux";
 
 function Colors({ task }) {
@@ -12,7 +12,7 @@ function Colors({ task }) {
   const purple = "#5F2EEA";
   const lightBlue = "#1CC8EE";
   return (
-    <div className={styles.taskColorsOpened}>
+    <>
       <div
         className={styles.colorPink}
         onClick={() => {
@@ -49,7 +49,7 @@ function Colors({ task }) {
           dispatch(selectColor(task.id, lightBlue));
         }}
       />
-    </div>
+    </>
   );
 }
 

@@ -109,4 +109,18 @@
 .addCategoryName {
   margin-left: 10px;
   font-weight: 400;
+
 }
+.addCategoryUnderText {
+  color:#6E7191;
+  font-size: 13px;
+  margin-left: 20px;
+  opacity: 0;
+}
+.addCategoryUnderTextShow {
+  color:#6E7191;
+  font-size: 13px;
+  margin-left: 20px;
+  opacity: 1;
+}
+

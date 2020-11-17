@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./MainBox.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import { setSearchValue } from "../../redux/actions";
 import classNames from "classnames";
+import searchIcon from "../../icons/iconsApp/Search.svg";
 
 function MainBoxSearchBar() {
   const searchValue = useSelector((state) => state.tasks.searchValue);
@@ -10,18 +11,20 @@ function MainBoxSearchBar() {
   const handleChange = (e) => {
     dispatch(setSearchValue(e.target.value));
   };
+  const [show, setShow] = useState(false);
   const searchBarWrapper = classNames(styles.searchBar, {
-    [styles.searchBarActive]: searchValue.length >= 1,
+    [styles.searchBarActive]: show,
   });
   const searchValueWrapper = classNames(styles.search, {
-    [styles.searchActive]: searchValue.length >= 1,
+    [styles.searchActive]: show,
   });
+
   return (
     <>
       <div className={searchValueWrapper}>
         <div className={styles.searchIcon}>
           <img
-            src={require("../../icons/iconsApp/Search.svg")}
+            src={searchIcon}
             alt="img"
             width={20}
             className={styles.searchIconIn}
@@ -30,6 +33,12 @@ function MainBoxSearchBar() {
         <input
           type="search"
           onChange={handleChange}
+          onFocus={() => {
+            setShow(true);
+          }}
+          onBlur={() => {
+            setShow(false);
+          }}
           placeholder="Фильтр"
           className={searchBarWrapper}
           value={searchValue}

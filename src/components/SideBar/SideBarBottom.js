@@ -3,7 +3,9 @@ import styles from "./AppSideBar.module.css";
 import { openDeletedTasks, openDoneTasks } from "../../redux/actions";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory, useParams } from "react-router-dom";
-import classNames from "classnames"
+import classNames from "classnames";
+import checkBottom from "../../icons/iconsApp/CheckBottom.svg";
+import deleteBottom from "../../icons/iconsApp/Delete.svg";
 
 function SideBarBottom() {
   const dispatch = useDispatch();
@@ -15,13 +17,13 @@ function SideBarBottom() {
   const history = useHistory();
   const handleOpenDone = () => {
     if (idTask !== "done") {
-      dispatch(openDoneTasks());
+      dispatch(openDoneTasks("done"));
       history.push("done");
     }
   };
   const handleOpenDeleted = () => {
     if (idTask !== "deleted") {
-      dispatch(openDeletedTasks());
+      dispatch(openDeletedTasks("deleted"));
       history.push("deleted");
     }
   };
@@ -31,6 +33,7 @@ function SideBarBottom() {
   const doneWrapper = classNames(styles.done, {
     [styles.doneSelected]: tasksDoneLoading === false,
   });
+
   return (
     <div className={styles.bottom}>
       <div
@@ -39,11 +42,7 @@ function SideBarBottom() {
           handleOpenDone();
         }}
       >
-        <img
-          src={require("../../icons/iconsApp/CheckBottom.svg")}
-          alt="img"
-          className={styles.checkIconBottom}
-        />
+        <img src={checkBottom} alt="img" className={styles.checkIconBottom} />
         Завершенные
       </div>
       <div
@@ -52,11 +51,7 @@ function SideBarBottom() {
           handleOpenDeleted();
         }}
       >
-        <img
-          src={require("../../icons/iconsApp/Delete.svg")}
-          alt="img"
-          className={styles.checkIconBottom}
-        />
+        <img src={deleteBottom} alt="img" className={styles.checkIconBottom} />
         Корзина
       </div>
     </div>

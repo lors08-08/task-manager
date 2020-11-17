@@ -1,22 +1,16 @@
 import React from "react";
 import styles from "./MainBox.module.css";
+import bell from "../../icons/iconsApp/Vector.svg";
+import settings from "../../icons/iconsApp/Settings.svg";
 
 function MainBoxIcons() {
   return (
     <div className={styles.headerIcons}>
       <div>
-        <img
-          src={require("../../icons/iconsApp/Vector.svg")}
-          alt="img"
-          className={styles.bellIcon}
-        />
+        <img src={bell} alt="img" className={styles.bellIcon} />
       </div>
       <div>
-        <img
-          src={require("../../icons/iconsApp/Settings.svg")}
-          alt="img"
-          className={styles.settingsIcon}
-        />
+        <img src={settings} alt="img" className={styles.settingsIcon} />
       </div>
       <div className={styles.profileIcon} />
     </div>

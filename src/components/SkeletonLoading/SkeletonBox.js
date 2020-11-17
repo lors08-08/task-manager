@@ -2,6 +2,10 @@ import React from "react";
 import SkeletonSideBar from "./SkeletonSideBar";
 import styles from "./SkeletonBox.module.css";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
+import searchIcon from "../../icons/iconsSkeleton/Search.svg"
+import bellIcon from "../../icons/iconsSkeleton/Vector.svg"
+import settings from "../../icons/iconsApp/Settings.svg"
+import group6 from "../../icons/iconsApp/Group6.svg"
 
 function SkeletonBox() {
   return (
@@ -12,7 +16,7 @@ function SkeletonBox() {
           <div className={styles.search}>
             <div className={styles.searchIcon}>
               <img
-                src={require("../../icons/iconsSkeleton/Search.svg")}
+                src={searchIcon}
                 alt="img"
                 width={20}
               />
@@ -22,14 +26,14 @@ function SkeletonBox() {
           <div className={styles.headerIcons}>
             <div>
               <img
-                src={require("../../icons/iconsSkeleton/Vector.svg")}
+                src={bellIcon}
                 alt="img"
                 className={styles.bellIcon}
               />
             </div>
             <div>
               <img
-                src={require("../../icons/iconsApp/Settings.svg")}
+                src={settings}
                 alt="img"
                 className={styles.settingsIcon}
               />
@@ -39,12 +43,17 @@ function SkeletonBox() {
             </SkeletonTheme>
           </div>
         </div>
-        <div className={styles.tasks}>
-          <img
-            src={require("../../icons/iconsSkeleton/Group6.svg")}
-            alt="img"
-            className={styles.img}
-          />
+        <div className={styles.tasksEmptyBox}>
+          <div className={styles.tasksEmpty}>
+            <img
+              src={group6}
+              alt="img"
+              className={styles.img}
+            />
+            <div className={styles.tasksEmptyTitle}>В списке еще нет ни одной задачи.
+              Воспользуйся формой выше, чтобы добавить
+            </div>
+          </div>
         </div>
       </div>
     </div>

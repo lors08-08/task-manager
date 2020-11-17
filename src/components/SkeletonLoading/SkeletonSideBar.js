@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "./SkeletonSideBar.module.css";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
-
+import check from "../../icons/iconsSkeleton/Check.svg"
+import checkBottom from "../../icons/iconsSkeleton/CheckBottom.svg"
+import deleteIcon from "../../icons/iconsSkeleton/Delete.svg"
 function SkeletonSideBar() {
   const skeleton = [1, 2, 3, 4, 5, 6];
   const width = "100%";
@@ -9,7 +11,7 @@ function SkeletonSideBar() {
     <div className={styles.sideBar}>
       <div className={styles.title}>
         <img
-          src={require("../../icons/iconsSkeleton/Check.svg")}
+          src={check}
           alt="img"
           className={styles.checkIcon}
         />
@@ -30,7 +32,7 @@ function SkeletonSideBar() {
       <div className={styles.bottom}>
         <div>
           <img
-            src={require("../../icons/iconsSkeleton/CheckBottom.svg")}
+            src={checkBottom}
             alt="img"
             className={styles.checkIconBottom}
           />
@@ -38,7 +40,7 @@ function SkeletonSideBar() {
         </div>
         <div>
           <img
-            src={require("../../icons/iconsSkeleton/Delete.svg")}
+            src={deleteIcon}
             alt="img"
             className={styles.checkIconBottom}
           />

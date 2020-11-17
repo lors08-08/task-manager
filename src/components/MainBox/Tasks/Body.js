@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "../../Tasks.module.css";
-import { colorsOpen } from "../../../../../redux/actions";
-import Colors from "../Colors";
+import styles from "./Tasks.module.css";
+import { colorsOpen } from "../../../redux/actions";
+import Colors from "./Colors";
 import { useDispatch, useSelector } from "react-redux";
 
 function Body({ task }) {
@@ -11,7 +11,6 @@ function Body({ task }) {
     (state) => state.tasks.selectedColorSwitcher
   );
   const dispatch = useDispatch();
-
   return (
     <>
       {colorsOpened ? (
@@ -33,7 +32,9 @@ function Body({ task }) {
           />
         )
       ) : task.id === selectedColorSwitcher ? (
-        <Colors task={task} />
+        <div className={styles.taskColorsOpened}>
+          <Colors task={task} />
+        </div>
       ) : (
         <div
           className={styles.taskColors}

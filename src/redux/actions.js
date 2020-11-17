@@ -12,31 +12,59 @@ export function loadCategories() {
   };
 }
 
-export function loadTasks() {
+export function openTasks(id) {
   return (dispatch) => {
-    dispatch({ type: "tasks/preLoad/start" });
-    fetch("http://localhost:3010/tasks")
+    dispatch({
+      type: "tasks/open/start",
+    });
+    fetch(`http://localhost:3010/tasks?categoryId=${id}`)
       .then((response) => response.json())
       .then((json) => {
         dispatch({
-          type: "tasks/preLoad/succeed",
+          type: "tasks/open/succeed",
+          payload: json,
+        });
+      });
+  };
+}
+export function openAllTasks() {
+  return (dispatch) => {
+    dispatch({
+      type: "tasksAll/open/start",
+    });
+    fetch("http://localhost:3010/tasks?deleted=false&done=false")
+      .then((response) => response.json())
+      .then((json) => {
+        dispatch({
+          type: "tasksAll/open/succeed",
           payload: json,
         });
       });
   };
 }
 
-export function openTasks(id) {
+export function openDoneTasks(id) {
   return (dispatch) => {
-    dispatch({
-      type: "tasks/open/start",
-      payload: id,
-    });
-    fetch("http://localhost:3010/tasks")
+    dispatch({ type: "tasks/openDone/start" });
+    fetch(`http://localhost:3010/tasks?${id}=true`)
       .then((response) => response.json())
       .then((json) => {
         dispatch({
-          type: "tasks/open/succeed",
+          type: "tasks/openDone/succeed",
+          payload: json,
+        });
+      });
+  };
+}
+
+export function openDeletedTasks(id) {
+  return (dispatch) => {
+    dispatch({ type: "tasks/openDeleted/start" });
+    fetch(`http://localhost:3010/tasks?${id}=true`)
+      .then((response) => response.json())
+      .then((json) => {
+        dispatch({
+          type: "tasks/openDeleted/succeed",
           payload: json,
         });
       });
@@ -93,7 +121,7 @@ export function setSearchValue(value) {
   };
 }
 
-export function saveTask(content, idCategory, time) {
+export function saveTask(content, idCategory, time, starred) {
   return (dispatch) => {
     dispatch({ type: "tasks/saveTask/start" });
     fetch("http://localhost:3010/tasks", {
@@ -107,7 +135,7 @@ export function saveTask(content, idCategory, time) {
         time: `${time}`,
         categoryId: parseInt(`${idCategory}`),
         done: false,
-        important: false,
+        important: starred,
         color: "#ded3ff",
         deleted: false,
       }),
@@ -231,34 +259,6 @@ export function deleteTask(id) {
         dispatch({
           type: "tasks/deleteTask/succeed",
           payload: id,
-        });
-      });
-  };
-}
-
-export function openDoneTasks() {
-  return (dispatch) => {
-    dispatch({ type: "tasks/openDone/start" });
-    fetch("http://localhost:3010/tasks")
-      .then((response) => response.json())
-      .then((json) => {
-        dispatch({
-          type: "tasks/openDone/succeed",
-          payload: json,
-        });
-      });
-  };
-}
-
-export function openDeletedTasks() {
-  return (dispatch) => {
-    dispatch({ type: "tasks/openDeleted/start" });
-    fetch("http://localhost:3010/tasks")
-      .then((response) => response.json())
-      .then((json) => {
-        dispatch({
-          type: "tasks/openDeleted/succeed",
-          payload: json,
         });
       });
   };

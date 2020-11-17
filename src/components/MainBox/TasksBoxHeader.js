@@ -3,7 +3,7 @@ import styles from "./MainBox.module.css";
 import MainBoxIcons from "./MainBoxIcons";
 import MainBoxSearchBar from "./MainBoxSearchBar";
 
-function MainBoxTop() {
+function TasksBoxHeader() {
   return (
     <div className={styles.header}>
       <MainBoxSearchBar />
@@ -12,4 +12,4 @@ function MainBoxTop() {
   );
 }
 
-export default MainBoxTop;
+export default TasksBoxHeader;

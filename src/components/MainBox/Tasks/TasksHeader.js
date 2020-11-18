@@ -7,7 +7,7 @@ import { useParams } from "react-router-dom";
 import classNames from "classnames";
 import plus from "../../../icons/iconsApp/Plus.svg";
 import starIcon from "../../../icons/iconsApp/Star.svg";
-import starredIcon from "../../../icons/iconsApp/StarTail.svg";
+import starFilled from "../../../icons/iconsApp/StarFilled.svg";
 
 function TasksHeader(props) {
   const [show, setShow] = useState(false);
@@ -56,7 +56,7 @@ function TasksHeader(props) {
             />
           </div>
           <img
-            src={starred ? starredIcon : starIcon}
+            src={starred ? starFilled : starIcon}
             alt="img"
             className={styles.star}
             onClick={() => handleSendStarred()}

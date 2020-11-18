@@ -27,12 +27,11 @@ function SideBarBody() {
       dispatch(saveCategory(value));
     }
   };
-  console.log(addCategoryValue.length)
 
   useHotkeys(
     "enter",
     () => {
-      send(addCategoryValue);
+      dispatch(saveCategory(addCategoryValue))
     },
     {
       filter: () => true,

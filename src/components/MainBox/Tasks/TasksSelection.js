@@ -12,7 +12,7 @@ function TasksSelection(props) {
       const lowerCaseSearch = searchValue.toLowerCase();
 
       return lowerCase.indexOf(lowerCaseSearch) !== -1;
-    });
+    }).reverse();
   });
 
   return (

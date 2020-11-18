@@ -7,6 +7,7 @@ import {
 } from "../../../redux/actions";
 import { useDispatch } from "react-redux";
 import starTail from "../../../icons/iconsApp/StarTail.svg";
+import starFilled from "../../../icons/iconsApp/StarFilled.svg";
 import checkTail from "../../../icons/iconsApp/CheckTail.svg";
 import deleteTail from "../../../icons/iconsApp/DeleteTail.svg";
 import { useParams } from "react-router-dom";
@@ -35,7 +36,7 @@ function Bottom({ task }) {
       <div className={styles.time}>
         {task.important && (
           <div className={styles.starImportant}>
-            <img src={starTail} alt="star" />
+            <img src={starFilled} alt="star" />
           </div>
         )}
         {task.time}
@@ -53,11 +54,13 @@ function Bottom({ task }) {
         )}
         {myProps.done === undefined && myProps.deleted === undefined && (
           <img
-            src={starTail}
+            src={task.important ? starFilled : starTail}
             alt="star"
-            className={styles.starTail}
+            className={task.important ? styles.starTailInactive : styles.starTail}
             onClick={() => {
-              dispatch(addToImportant(task.id));
+              if (task.important === false) {
+                dispatch(addToImportant(task.id));
+              }
             }}
           />
         )}

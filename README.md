@@ -5,6 +5,6 @@
 * CSSModules
 * react-transition-group для работы с анимацией
 * react-router-dom для роутинга
-* REST API, асинхронные запросы (специально для чата был написан небольшой backend)
-* Material Icons / normalize.css / react-loading-skeleton /classnames
-* а также хуки, prop-types, react-hotkeys-hook, moment, redux-logger функциональные компоненты
+* REST API, асинхронные запросы, json-server (специально для приложения был написан небольшой backend)
+* Material Icons / normalize.css / react-loading-skeleton / classnames
+* а также хуки, concurrently, prop-types, react-hotkeys-hook, moment, redux-logger, функциональные компоненты

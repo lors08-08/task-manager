@@ -59,9 +59,16 @@
   background-color: gray;
   border-radius: 25px;
 }
+.githubIcon {
+  margin-right: 25px;
+  padding-top: 4px;
+}
 .bellIcon {
   display: flex;
   margin-right: 25px;
+}
+.githubIcon:hover {
+  filter: drop-shadow(0px 0px 20px #ffffff) invert(90%);
 }
 .bellIcon:hover {
   filter: drop-shadow(0px 0px 20px #ffffff) invert(90%);

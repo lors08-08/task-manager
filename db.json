@@ -13,64 +13,8 @@
       "title": "Учеба"
     },
     {
-      "title": "other",
+      "title": "Прочие",
       "id": 4
-    },
-    {
-      "title": "jhk",
-      "id": 5
-    },
-    {
-      "title": "asd",
-      "id": 6
-    },
-    {
-      "title": "",
-      "id": 7
-    },
-    {
-      "title": "",
-      "id": 8
-    },
-    {
-      "title": "",
-      "id": 9
-    },
-    {
-      "title": "",
-      "id": 10
-    },
-    {
-      "title": "",
-      "id": 11
-    },
-    {
-      "title": "",
-      "id": 12
-    },
-    {
-      "title": "",
-      "id": 13
-    },
-    {
-      "title": "",
-      "id": 14
-    },
-    {
-      "title": "",
-      "id": 15
-    },
-    {
-      "title": "",
-      "id": 16
-    },
-    {
-      "title": "",
-      "id": 17
-    },
-    {
-      "title": "",
-      "id": 18
     }
   ],
   "tasks": [
@@ -95,7 +39,7 @@
       "time": "позавчера в 10:00"
     },
     {
-      "id": 5,
+      "id": 3,
       "categoryId": "deleted",
       "content": "На эту задачу навели курсор мышки",
       "deleted": true,
@@ -105,524 +49,114 @@
       "time": "позавчера в 10:00"
     },
     {
-      "content": "asdas",
-      "time": "Today at 1:47 AM",
+      "content": "Пойти на работу",
+      "time": "Today at 9:18 PM",
+      "categoryId": 1,
+      "done": false,
+      "important": true,
+      "color": "#ED2E7E",
+      "deleted": false,
+      "id": 4
+    },
+    {
+      "content": "Не опаздывать!!",
+      "time": "Today at 9:19 PM",
+      "categoryId": 1,
+      "done": false,
+      "important": false,
+      "color": "#1CC8EE",
+      "deleted": false,
+      "id": 5
+    },
+    {
+      "content": "Закончить курсы интукод",
+      "time": "Today at 9:19 PM",
       "categoryId": "deleted",
       "done": false,
       "important": false,
-      "color": "#ded3ff",
+      "color": "#00BA88",
       "deleted": true,
       "id": 6
     },
     {
-      "content": "asda",
-      "time": "Today at 1:47 AM",
-      "categoryId": "deleted",
+      "content": "Выучить все темы",
+      "time": "Today at 9:20 PM",
+      "categoryId": 3,
       "done": false,
       "important": false,
-      "color": "#ded3ff",
-      "deleted": true,
+      "color": "#DED3FF",
+      "deleted": false,
       "id": 7
     },
     {
-      "content": "asdasd",
-      "time": "Today at 1:47 AM",
-      "categoryId": "deleted",
-      "done": false,
-      "important": false,
-      "color": "#ded3ff",
-      "deleted": true,
-      "id": 8
-    },
-    {
-      "content": "asdasd",
-      "time": "Today at 1:47 AM",
-      "categoryId": "deleted",
-      "done": false,
-      "important": false,
-      "color": "#ded3ff",
-      "deleted": true,
-      "id": 9
-    },
-    {
-      "content": "asd",
-      "time": "Today at 1:47 AM",
-      "categoryId": "deleted",
-      "done": false,
-      "important": false,
-      "color": "#ded3ff",
-      "deleted": true,
-      "id": 10
-    },
-    {
-      "content": "asdasd",
-      "time": "Today at 1:47 AM",
-      "categoryId": "deleted",
-      "done": false,
-      "important": false,
-      "color": "#ded3ff",
-      "deleted": true,
-      "id": 11
-    },
-    {
-      "content": "asdasdasdas",
-      "time": "Today at 2:01 AM",
-      "categoryId": "deleted",
-      "done": false,
-      "important": false,
-      "color": "#ded3ff",
-      "deleted": true,
-      "id": 12
-    },
-    {
-      "content": "asdas",
-      "time": "Today at 2:02 AM",
-      "categoryId": "deleted",
-      "done": false,
-      "important": false,
-      "color": "#ded3ff",
-      "deleted": true,
-      "id": 13
-    },
-    {
-      "content": "asd",
-      "time": "Today at 2:02 AM",
-      "categoryId": "deleted",
-      "done": false,
-      "important": false,
-      "color": "#ded3ff",
-      "deleted": true,
-      "id": 14
-    },
-    {
-      "content": "asda",
-      "time": "Today at 2:02 AM",
-      "categoryId": "deleted",
-      "done": false,
-      "important": false,
-      "color": "#DED3FF",
-      "deleted": true,
-      "id": 15
-    },
-    {
-      "content": "asd",
-      "time": "Today at 2:02 AM",
-      "categoryId": "deleted",
-      "done": false,
-      "important": false,
-      "color": "#ded3ff",
-      "deleted": true,
-      "id": 16
-    },
-    {
-      "content": "aaaaaaaaaa",
-      "time": "Today at 3:30 PM",
-      "categoryId": "deleted",
-      "done": false,
-      "important": false,
-      "color": "#ded3ff",
-      "deleted": true,
-      "id": 17
-    },
-    {
-      "content": "asd",
-      "time": "Today at 4:43 PM",
-      "categoryId": "deleted",
-      "done": false,
-      "important": false,
-      "color": "#ded3ff",
-      "deleted": true,
-      "id": 18
-    },
-    {
-      "content": "das",
-      "time": "Today at 4:52 PM",
-      "categoryId": "deleted",
-      "done": false,
-      "important": false,
-      "color": "#ED2E7E",
-      "deleted": true,
-      "id": 19
-    },
-    {
-      "content": "asdsa",
-      "time": "Today at 4:52 PM",
-      "categoryId": 1,
-      "done": false,
-      "important": false,
-      "color": "#5F2EEA",
-      "deleted": false,
-      "id": 20
-    },
-    {
-      "content": "aa",
-      "time": "Today at 4:52 PM",
-      "categoryId": "done",
-      "done": true,
-      "important": true,
-      "color": "#DED3FF",
-      "deleted": false,
-      "id": 21
-    },
-    {
-      "content": "asdas",
-      "time": "Today at 1:05 AM",
-      "categoryId": "deleted",
-      "done": false,
-      "important": false,
-      "color": "#F4B740",
-      "deleted": true,
-      "id": 22
-    },
-    {
-      "content": "asd",
-      "time": "Today at 3:27 PM",
-      "categoryId": 1,
-      "done": false,
-      "important": false,
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 23
-    },
-    {
-      "content": "aaaaaaaa",
-      "time": "Today at 3:28 PM",
-      "categoryId": 2,
-      "done": false,
-      "important": false,
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 24
-    },
-    {
-      "content": "aa",
-      "time": "Today at 3:39 PM",
-      "categoryId": null,
-      "done": false,
-      "important": false,
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 25
-    },
-    {
-      "content": "a",
-      "time": "Today at 3:39 PM",
-      "categoryId": 1,
-      "done": false,
-      "important": false,
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 26
-    },
-    {
-      "content": "a",
-      "time": "Today at 3:39 PM",
+      "content": "Подготовиться к собеседованию",
+      "time": "Today at 9:20 PM",
       "categoryId": 3,
       "done": false,
       "important": false,
       "color": "#ded3ff",
       "deleted": false,
-      "id": 27
+      "id": 8
     },
     {
-      "content": "d",
-      "time": "Today at 3:39 PM",
+      "content": "Выучить 3 вопрос",
+      "time": "Today at 9:20 PM",
+      "categoryId": 3,
+      "done": false,
+      "important": true,
+      "color": "#00BA88",
+      "deleted": false,
+      "id": 9
+    },
+    {
+      "content": "Повторить все темы",
+      "time": "Today at 9:21 PM",
+      "categoryId": 3,
+      "done": false,
+      "important": false,
+      "color": "#F4B740",
+      "deleted": false,
+      "id": 10
+    },
+    {
+      "content": "Выучить имена преподавателей",
+      "time": "Today at 9:21 PM",
+      "categoryId": 3,
+      "done": false,
+      "important": false,
+      "color": "#ED2E7E",
+      "deleted": false,
+      "id": 11
+    },
+    {
+      "content": "Купить хлеб",
+      "time": "Today at 9:22 PM",
+      "categoryId": 2,
+      "done": false,
+      "important": false,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 12
+    },
+    {
+      "content": "Пойти на собрание ",
+      "time": "Today at 9:22 PM",
+      "categoryId": 2,
+      "done": false,
+      "important": true,
+      "color": "#ded3ff",
+      "deleted": false,
+      "id": 13
+    },
+    {
+      "content": "Выкинуть мусор",
+      "time": "Today at 9:23 PM",
       "categoryId": 4,
       "done": false,
       "important": false,
-      "color": "#ded3ff",
+      "color": "#ED2E7E",
       "deleted": false,
-      "id": 28
-    },
-    {
-      "content": "asd",
-      "time": "Today at 4:11 AM",
-      "categoryId": null,
-      "done": false,
-      "important": true,
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 29
-    },
-    {
-      "content": "a",
-      "time": "Today at 4:12 AM",
-      "categoryId": null,
-      "done": false,
-      "important": true,
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 30
-    },
-    {
-      "content": "dasd",
-      "time": "Today at 4:25 AM",
-      "categoryId": null,
-      "done": false,
-      "important": "true",
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 31
-    },
-    {
-      "content": "a",
-      "time": "Today at 4:38 AM",
-      "categoryId": null,
-      "done": false,
-      "important": "false",
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 32
-    },
-    {
-      "content": "asd",
-      "time": "Today at 4:38 AM",
-      "categoryId": null,
-      "done": false,
-      "important": "false",
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 33
-    },
-    {
-      "content": "a",
-      "time": "Today at 4:38 AM",
-      "categoryId": null,
-      "done": false,
-      "important": "true",
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 34
-    },
-    {
-      "content": "a",
-      "time": "Today at 4:38 AM",
-      "categoryId": null,
-      "done": false,
-      "important": "false",
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 35
-    },
-    {
-      "content": "no star",
-      "time": "Today at 4:41 AM",
-      "categoryId": null,
-      "done": false,
-      "important": true,
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 36
-    },
-    {
-      "content": "asd",
-      "time": "Today at 4:43 AM",
-      "categoryId": null,
-      "done": false,
-      "important": "true",
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 37
-    },
-    {
-      "content": "asdas",
-      "time": "Today at 4:43 AM",
-      "categoryId": null,
-      "done": false,
-      "important": "true",
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 38
-    },
-    {
-      "content": "asd",
-      "time": "Today at 4:44 AM",
-      "categoryId": null,
-      "done": false,
-      "important": "false",
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 39
-    },
-    {
-      "content": "aaa",
-      "time": "Today at 4:45 AM",
-      "categoryId": "done",
-      "done": true,
-      "important": "true",
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 40
-    },
-    {
-      "content": "dad",
-      "time": "Today at 4:45 AM",
-      "categoryId": 1,
-      "done": false,
-      "important": "false",
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 41
-    },
-    {
-      "content": "adsa",
-      "time": "Today at 4:47 AM",
-      "categoryId": 1,
-      "done": false,
-      "important": "true",
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 42
-    },
-    {
-      "content": "asd",
-      "time": "Today at 4:47 AM",
-      "categoryId": 1,
-      "done": false,
-      "important": "false",
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 43
-    },
-    {
-      "content": "asd",
-      "time": "Today at 4:47 AM",
-      "categoryId": 1,
-      "done": false,
-      "important": "false",
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 44
-    },
-    {
-      "content": "aaa",
-      "time": "Today at 4:47 AM",
-      "categoryId": 1,
-      "done": false,
-      "important": "false",
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 45
-    },
-    {
-      "content": "a",
-      "time": "Today at 4:47 AM",
-      "categoryId": 1,
-      "done": false,
-      "important": "false",
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 46
-    },
-    {
-      "content": "a",
-      "time": "Today at 4:47 AM",
-      "categoryId": 2,
-      "done": false,
-      "important": "false",
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 47
-    },
-    {
-      "content": "asd",
-      "time": "Today at 4:48 AM",
-      "categoryId": 2,
-      "done": false,
-      "important": "true",
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 48
-    },
-    {
-      "content": "s",
-      "time": "Today at 4:48 AM",
-      "categoryId": 2,
-      "done": false,
-      "important": "false",
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 49
-    },
-    {
-      "content": "d",
-      "time": "Today at 4:49 AM",
-      "categoryId": 2,
-      "done": false,
-      "important": false,
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 50
-    },
-    {
-      "content": "d",
-      "time": "Today at 4:49 AM",
-      "categoryId": 2,
-      "done": false,
-      "important": true,
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 51
-    },
-    {
-      "content": "asd",
-      "time": "Today at 4:49 AM",
-      "categoryId": null,
-      "done": false,
-      "important": false,
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 52
-    },
-    {
-      "content": "das",
-      "time": "Today at 4:49 AM",
-      "categoryId": null,
-      "done": false,
-      "important": true,
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 53
-    },
-    {
-      "content": "a",
-      "time": "Today at 4:50 AM",
-      "categoryId": null,
-      "done": false,
-      "important": false,
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 54
-    },
-    {
-      "content": "a",
-      "time": "Today at 3:57 AM",
-      "categoryId": 1,
-      "done": false,
-      "important": false,
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 55
-    },
-    {
-      "content": "a",
-      "time": "Today at 3:57 AM",
-      "categoryId": 1,
-      "done": false,
-      "important": true,
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 56
-    },
-    {
-      "content": "a",
-      "time": "Today at 3:57 AM",
-      "categoryId": 1,
-      "done": false,
-      "important": false,
-      "color": "#ded3ff",
-      "deleted": false,
-      "id": 57
+      "id": 14
     }
   ],
   "profile": {
